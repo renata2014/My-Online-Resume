@@ -1,0 +1,100 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-content{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.resume-title{
+    position: relative;
+    margin-left: 650px;
+    color: #233D4D;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 60px;
+    font-size: 45px;
+}
+
+.resume-span{
+    color: #02B6A4;
+}
+
+.skills-container{
+    position: relative;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+.skills-content{
+    width: 400px;
+    border-radius: 20px;
+    padding: 15px;
+    border: 3px solid white;
+    box-shadow: 5px 0 5px 5px thistle;
+}
+
+.skills-content p{
+    margin-top: 20px;
+    padding-left:0px;
+    color: #233D4D;
+    margin: 10px;
+}
+
+.pink{
+    width: 100%;
+    height: 10px;
+    background-color: #E43F6F;
+    border-radius: 5px;
+}
+
+.yellow{
+    width: 100%;
+    height: 10px;
+    background-color: #ECC732;
+    border-radius: 5px;
+}
+
+.green{
+    width: 100%;
+    height: 10px;
+    background-color: #3BB273;
+    border-radius: 5px;
+}
+
+.blue{
+    width: 100%;
+    height: 10px;
+    background-color: #64C3E3;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.skills{
+    color: #233D4D;
+    letter-spacing: 1px;
+}
+
+.skills-span{
+    color: #02B6A4;
+}
+
+
+.language-container{
+    position: relative;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.education-container{
+    position: relative;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+.work-container{
+    position: relative;
+    margin-left: 100px;
+    margin-top: 50px;
+}

@@ -34,7 +34,7 @@ export class Homepage extends React.Component{
             </div>
             <div className="linkedin">
             <img src={linkedin} alt="in" className="in-logo" onclick={()=>{
-                window.open("https://www.linkedin.com/in/renata-pencea/","_blank")
+                window.open("www.linkedin.com/in/renata-pencea","_blank")
             }}></img>
             </div>
             <div className="box">          

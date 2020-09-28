@@ -4,11 +4,18 @@
     width: 200px;
     background-color: #f1f1f1;
     position: fixed;
+    top: 0;
     height: 100%;
     overflow: auto;
+    border: 1px solid #D7DBEA;
+     border-radius: 20px;
   }
 
-  .sidebar a {
+  .left{
+    box-shadow: 5px 0 5px 5px #BCC3DC;
+  }
+
+  .home-p {
       width: 100px;
     position: relative;
     display: inline-block;
@@ -23,98 +30,141 @@
     overflow: hidden;
     transition: 0.5s;
     letter-spacing: 3px;
+    cursor: pointer;
+    filter: hue-rotate(deg);
   }
 
-  a:nth-child(1){
-      filter: hue-rotate(290deg);
-  }
-  a:nth-child(3){
-      filter: hue-rotate(110deg);
-  }
-  a:nth-child(4){
-      filter: hue-rotate(190deg);
+  .home-p:hover{
+    background: #03e9f4;
+    color: #050801;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 200px #03e9f4;
+}
+
+  .resume-p{
+    width: 100px;
+    position: relative;
+    display: inline-block;
+    color: black;
+    padding: 25px 30px;
+    text-decoration: none;
+    margin: 30px 15px;
+    color: #03e9f4;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.5s;
+    letter-spacing: 3px;
+    cursor: pointer;
+    filter: hue-rotate(290deg);
   }
 
-  a:hover{
-      background: #03e9f4;
-      color: #050801;
-      box-shadow: 0 0 5px #03e9f4,
-                  0 0 25px #03e9f4,
-                  0 0 50px #03e9f4,
-                  0 0 200px #03e9f4;
-  }
+  .resume-p:hover{
+    background: #03e9f4;
+    color: #050801;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 200px #03e9f4;
+}
 
-  a span{
+.work-p{
+  width: 100px;
+    position: relative;
+    display: inline-block;
+    color: black;
+    padding: 25px 30px;
+    text-decoration: none;
+    margin: 30px 15px;
+    color: #03e9f4;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.5s;
+    letter-spacing: 3px;
+    cursor: pointer;
+    filter: hue-rotate(110deg);
+}
+
+.work-p:hover{
+  background: #03e9f4;
+  color: #050801;
+  box-shadow: 0 0 5px #03e9f4,
+              0 0 25px #03e9f4,
+              0 0 50px #03e9f4,
+              0 0 200px #03e9f4;
+}
+
+.about-p{
+  width: 100px;
+    position: relative;
+    display: inline-block;
+    color: black;
+    padding: 25px 30px;
+    text-decoration: none;
+    margin: 30px 15px;
+    color: #03e9f4;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.5s;
+    letter-spacing: 3px;
+    cursor: pointer;
+    filter: hue-rotate(190deg);
+}
+
+.about-p:hover{
+  background: sandybrown;
+  color: #050801;
+  box-shadow: 0 0 5px  sandybrown,
+              0 0 25px sandybrown,
+              0 0 50px  sandybrown,
+              0 0 200px  sandybrown;
+}
+
+
+
+
+  /* .p span{
       position: absolute;
       display: block;
-  }
-  a span:nth-child(1){
+  } */
+  /* .p span:nth-child(1){
       top: 0;
       Left: -100%;
       width: 100%;
       height: 2px;
       background: linear-gradient(90deg, transparent, #03e9f4);
-      animation: animate1 1s linear infinite;
-  }
-  @keyframes animate1{
-      0%{
-        Left: -100%;
-      }
-      50%,100%{
-        Left: 100%;
-      }
-  }
+     
+  } */
 
-  a span:nth-child(2){
+  /* .resume-p span:nth-child(2){
     top: -100%;
     right: 0;
     width: 2px;
     height: 2px;
     background: linear-gradient(180deg, transparent, #03e9f4);
-    animation: animate2 2s linear infinite;
-    animation-delay: 0.25s;
-}
-@keyframes animate2{
-    0%{
-      top: -100%;
-    }
-    50%,100%{
-      top: 100%;
-    }
-}
+} */
 
-a span:nth-child(3){
+
+/* .p span:nth-child(3){
     bottom: 0;
     right: -100%;
     width: 100%;
     height: 2px;
     background: linear-gradient(270deg, transparent, #03e9f4);
-    animation: animate3 1s linear infinite;
-    animation-delay: 0.25s;
-}
-@keyframes animate3{
-    0%{
-      right: -100%;
-    }
-    50%,100%{
-      right: 100%;
-    }
-}
+} */
 
-a span:nth-child(4){
+
+/* .p span:nth-child(4){
     bottom: -100%;
     left: 0;
     width: 2px;
     height: 100%;
     background: linear-gradient(270deg, transparent, #03e9f4);
-    animation: animate4 1s linear infinite;
-    animation-delay: 0.25s;
-}
-@keyframes animate4{
-    0%{
-      bottom: -100%;
-    }
-    50%,100%{
-      bottom: 100%;
-    }
-}
+} */

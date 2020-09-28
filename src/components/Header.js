@@ -1,38 +1,45 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Header.css';
 
 export class SideBar extends React.Component{
     render(){
         return(
-            <div className="sidebar">
-                <a href="#">
+            <div className="sidebar left">
+               <Link to="/">
+                <p className="home-p">
                     <span></span>
                     <span></span>
                     <span></span>
                     <span></span>
                     Home
-                </a>
-                <a href="#">
+                </p>
+                </Link>
+                <Link to="/resume">
+                <p className="resume-p">
                     <span></span>
                     <span></span>
                     <span></span>
                     <span></span>
                     Resume
-                </a>
-                <a href="#">
+                </p>
+                </Link>
+                <Link to="/my-work">
+                <p className="work-p" >
                     <span></span>
                     <span></span>
                     <span></span>
                     <span></span>
                     Work
-                </a>
-                <a href="#">
+                </p>
+                </Link>
+                <p className="about-p">
                     <span></span>
                     <span></span>
                     <span></span>
                     <span></span>
                     About me
-                </a>
+                </p>
             </div>
         )
     }

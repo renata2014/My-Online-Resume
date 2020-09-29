@@ -28,23 +28,27 @@ export class ResumeContent extends React.Component{
                     <p>English</p>
                     <div className="yellow"></div>
                     </div>
-                </div>
+                </div></div>
+                <div className="mainn-content">
                 <div className="education-container">
                     <h3 className="skills">EDUCATION</h3>
                     <div className="skills-content">
-                    <p>Romanian</p>
-                    <div className="pink"></div>
-                    <p>English</p>
-                    <div className="yellow"></div>
+                    <p>Babes Bolyai University of Cluj-Napoca<br></br>
+                    FSPAC -  Comunication and PR (with licence degree)<br></br>
+                    <span className="years-span">2017 - 2020</span></p>
+                    <p>USAMV - Cluj-Napoca <br></br>
+                       Engineering and Management in Tourism Industry (no licence degree)<br></br>
+                       <span className="years-span">2011 - 2015</span><br></br></p>
                     </div>
                 </div>
-                <div className="work-container">
+                <div className="workk-container">
                     <h3 className="skills">WORK</h3>
                     <div className="skills-content">
-                    <p>Romanian</p>
-                    <div className="pink"></div>
-                    <p>English</p>
-                    <div className="yellow"></div>
+                    <p>Data Entry Specialist at Iron Mountain Company<br></br>
+                    Cluj-Napoca<br></br>
+                    <span className="years-span">From March 2016 - Present</span></p>
+                    
+                    
                     </div>
                 </div>
             </div>

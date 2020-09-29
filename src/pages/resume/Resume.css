@@ -4,8 +4,8 @@ body{
 
 .main-content{
     display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 100px;
+    margin-bottom: auto;
+    padding-bottom: 0;
 }
 
 .resume-title{
@@ -93,7 +93,21 @@ body{
     margin-top: 50px;
 }
 
-.work-container{
+
+
+.years-span{
+    color: #166088;
+    font-weight: bold;
+}
+
+.mainn-content{
+    display: flex;
+    margin-bottom: 100px;
+    margin-top: -100px;
+    
+}
+
+.workk-container{
     position: relative;
     margin-left: 100px;
     margin-top: 50px;

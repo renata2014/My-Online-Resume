@@ -12,7 +12,7 @@ export class Homepage extends React.Component{
         return(<div className="homepage-content">
             <div className="info-content">
             <h3> Hi, I'm Renata Pencea</h3>
-            <h4>A Junior Web Developer</h4>
+            <h4>A Junior Web Developer.</h4>
             </div>
             <div className="dot-1"></div>
             <div className="dot-2"></div>

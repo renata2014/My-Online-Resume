@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import { ResumeContent } from './pages/resume/Resume';
 import { MyWork } from './pages/workpage/Workpage';
+import { AboutMePage } from './pages/Aboutme/AboutMe';
 
 function App() {
   return (<div>
@@ -23,6 +24,9 @@ function App() {
       </Route>
       <Route path="/my-work">
         <MyWork />
+      </Route>
+      <Route path="/about-me">
+        <AboutMePage />
       </Route>
     </Switch>
     </Router>

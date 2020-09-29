@@ -1,0 +1,98 @@
+.mainnn-contentt{
+    margin-bottom: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title-text{
+    position: relative;
+    margin-left: 600px;
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+.first-content{
+    margin-left: 450px;
+    display: flex;
+    width: 500px;
+    border-radius: 20px;
+    padding: 15px;
+    border: 3px solid white;
+    box-shadow: 5px 0 5px 5px thistle;
+}
+
+.skills-content p{
+    margin-top: 20px;
+    padding-left:0px;
+    color: #233D4D;
+    margin: 10px;
+}
+
+.first-container{
+    margin-left: 25px;
+}
+.second-container{
+    margin-left: 45px;
+}
+
+.title-text{
+    color: #233D4D;
+}
+
+.title-span{
+    color: #02B6A4;
+}
+
+.first-content p{
+    font-weight: bold;
+    color: #233D4D;
+}
+
+.first-content span{
+    font-weight: normal;
+    color: #233D4D;
+}
+
+.second-content{
+    margin-left: 560px;
+    display: flex;
+    width: 270px;
+    border-radius: 20px;
+    padding: 15px;
+    border: 3px solid white;
+    box-shadow: 5px 0 5px 5px thistle;
+    margin-top: 50px;
+}
+
+.hobbies-title{
+    padding-left: 100px;
+    padding-right: 100px;
+    color: #233D4D;
+}
+
+.hobbies-container p{
+    color: #233D4D;
+}
+
+.colorful-line{
+    width: 100%;
+    height: 2px;
+    background-color: #57C4E5;
+}
+
+.second-line{
+    width: 100%;
+    height: 2px;
+    background-color: #E83151;
+}
+
+.third-line{
+    width: 100%;
+    height: 2px;
+    background-color: #A76571;
+}
+
+.fourth-line{
+    width: 100%;
+    height: 2px;
+    background-color: #D664BE;
+}

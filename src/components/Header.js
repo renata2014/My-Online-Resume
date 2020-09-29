@@ -30,9 +30,10 @@ export class SideBar extends React.Component{
                     <span></span>
                     <span></span>
                     <span></span>
-                    Work
+                    My Work
                 </p>
                 </Link>
+                <Link to="/about-me">
                 <p className="about-p">
                     <span></span>
                     <span></span>
@@ -40,6 +41,7 @@ export class SideBar extends React.Component{
                     <span></span>
                     About me
                 </p>
+                </Link>
             </div>
         )
     }

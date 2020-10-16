@@ -33,6 +33,8 @@ export class ResumeContent extends React.Component{
                 <div className="education-container">
                     <h3 className="skills">EDUCATION</h3>
                     <div className="skills-content">
+                        <p>The Informal School of IT - Web Development(HTML, CSS, Javascript, ReactJS)<br></br>
+                        <span className="years-span">2020</span></p>
                     <p>Babes Bolyai University of Cluj-Napoca<br></br>
                     FSPAC -  Comunication and PR (with licence degree)<br></br>
                     <span className="years-span">2017 - 2020</span></p>

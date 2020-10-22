@@ -49,8 +49,7 @@ export class ResumeContent extends React.Component{
                     <p>Data Entry Specialist at Iron Mountain Company<br></br>
                     Cluj-Napoca<br></br>
                     <span className="years-span">From March 2016 - Present</span></p>
-                    
-                    
+
                     </div>
                 </div>
             </div>

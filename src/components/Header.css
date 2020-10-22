@@ -208,12 +208,20 @@
 
 }
 
-/* @media only screen and (max-width: 414px){
-  .mobile-header{
-    width: 100%;
+@media only screen and (max-width: 414px){
+  .dropdown .burger-button{
+    width: 40px;
+  }
+} 
+
+@media only screen and (max-width: 375px){
+  .dropdown .burger-button{
+    width: 35px;
   }
 
-} */
-
+  .mobile-header{
+    height: 80px;
+  }
+}
 
 

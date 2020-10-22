@@ -147,14 +147,14 @@ body{
         margin-left: 90px;
     }
 
-    .skills-container{
-        margin-left: 15px;
-        width: 80%;
+    .skills-content{
+        margin-left: -40%;
+        width: 330px;
     }
 
     .language-container{
-        margin-left:15px;
-        width: 80%;
+        margin-left: 38%;
+        width: 330px;
     }
 
     .mainn-content{
@@ -164,13 +164,17 @@ body{
     }
 
     .education-container{
-        margin-left: 15px;
+        margin-left: 155px;
         width: 80%;
     }
 
     .workk-container{
-        margin-left: 15px;
+        margin-left: 168px;
 
+    }
+
+    .skills{
+        margin-left: -110px;
     }
 }
 
@@ -179,17 +183,20 @@ body{
         margin-left: 70px;
     }
 
-
-    .skills{
-        margin-left: 10px;
-    }
-    .skills-content{
-        margin-left: 10px;
-        width: 95%;
+    .skills-container{
+        margin-left: 55px;
+        width: 130px;
     }
 
+    
     .workk-container{
-        width: 80%;
+      margin-left: 155px;
     }
+
+    .education-container{
+        margin-left: 130px;
+    }
+
+    
 
 }

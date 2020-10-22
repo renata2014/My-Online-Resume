@@ -47,9 +47,9 @@ export class SideBar extends React.Component{
             <div className="mobile-header">
                 <div className="Menu-container">
                     <div className="button">
-                    <button className="dropdown"> 
+                    <div className="dropdown"> 
                         <img src={burger} alt="burger" className="burger-button"></img>
-                    </button>
+                    </div>
                 </div>
            <div className="Dropdown-content">
                <Link to="/">

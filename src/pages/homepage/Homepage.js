@@ -4,8 +4,8 @@ import photo from '../../mypic.jpg';
 import facebook from '../../facebook.svg';
 import instagram from '../../instagram.svg'
 import linkedin from '../../linkedin.svg';
-import { Link } from 'react-router-dom';
-import { logDOM } from '@testing-library/react';
+// import { Link } from 'react-router-dom';
+// import { logDOM } from '@testing-library/react';
 
 export class Homepage extends React.Component{
     render(){
@@ -14,6 +14,7 @@ export class Homepage extends React.Component{
             <h3> Hi, I'm Renata Pencea</h3>
             <h4>A Junior Web Developer.</h4>
             </div>
+            <div className="dots">
             <div className="dot-1"></div>
             <div className="dot-2"></div>
             <div className="dot-3"></div>
@@ -22,6 +23,7 @@ export class Homepage extends React.Component{
             <div className="dot-6"></div>
             <div className="dot-7"></div>
             <div className="dot-8"></div>
+            </div>
             <div className="facebook">
             <img src={facebook} alt="facebook" className="fb-logo" onClick={()=>{
                 window.open("https://www.facebook.com/forna.renata","_blank")

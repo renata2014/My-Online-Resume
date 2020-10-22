@@ -96,3 +96,33 @@
     height: 2px;
     background-color: #D664BE;
 }
+
+@media only screen and (max-width: 768px){
+    .title-text{
+        margin-left: 250px;
+    }
+
+    .first-content{
+        margin-left: 120px;
+    }
+
+    .second-content{
+        margin-left: 240px;
+    }
+}
+
+@media only screen and (max-width: 414px){
+    .title-text{
+        margin-left: 90px;
+    }
+
+    .first-content{
+        margin-left: 15px;
+        width: 80%;
+    }
+
+    .second-content{
+        margin-left: 15px;
+        width: 80%;
+    }
+}

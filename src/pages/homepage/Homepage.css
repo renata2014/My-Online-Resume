@@ -273,7 +273,7 @@
    }
 
    .info-content{
-       margin-left: 70px;
+       margin-left: -10px;
    }
 
    .box{
@@ -291,7 +291,15 @@
 
 @media only screen and (max-width: 375px){
     .info-content{
-        margin-left: 60px;
+        margin-left: -20px;
+    }
+
+    .info-content h3{
+       font-size: 20px;
+    }
+
+    .info-content h4{
+        font-size: 17px;
     }
 
     .box{
@@ -304,6 +312,24 @@
    .instagram,
    .linkedin{
        margin-top: 500px;
+   }
+
+   @media only screen and (max-width: 320px){
+       .info-content h3{
+           font-size: 17px;
+       }
+       .info-content h4{
+           font-size: 15px;
+       }
+
+       .info-content{
+           margin-left: -50px;
+       }
+
+       .box{
+           position: absolute;
+           margin-left: 60px;
+       }
    }
 }
 

@@ -182,14 +182,14 @@
 }
 
 
-.Dropdown-content a:active {
+.Dropdown-content a:hover {
   display: flex;
   background-color: pink;
   box-shadow: purple;
   }
 
 
-  .Dropdown:active{
+  .Dropdown:hover{
       display: inline-block;
      }
 
@@ -203,7 +203,7 @@
   
 }
 
-.Menu-container:active .Dropdown-content{
+.Menu-container:hover .Dropdown-content{
   display: block;
 }
 

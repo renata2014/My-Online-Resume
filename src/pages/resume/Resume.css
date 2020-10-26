@@ -178,6 +178,7 @@ body{
     .language-container{
         margin-left: 38%;
         width: 330px;
+
     }
 
     .mainn-content{
@@ -189,11 +190,12 @@ body{
     .education-container{
         margin-left: 155px;
         width: 80%;
+     
     }
 
     .workk-container{
         margin-left: 168px;
-
+        
     }
 
     .skills{
@@ -214,11 +216,15 @@ body{
     
     .workk-container{
       margin-left: 155px;
+      
     }
 
     .education-container{
         margin-left: 130px;
+       
     }
+
+   
 
     
 

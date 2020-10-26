@@ -133,6 +133,7 @@
   }
 }
 
+
 @media only screen and (max-width: 768px){
   .sidebar{
     display: none;
@@ -181,14 +182,14 @@
 }
 
 
-.Dropdown-content a:hover {
+.Dropdown-content a:active {
   display: flex;
   background-color: pink;
   box-shadow: purple;
   }
 
 
-  .Dropdown:hover{
+  .Dropdown:active{
       display: inline-block;
      }
 
@@ -202,7 +203,7 @@
   
 }
 
-.Menu-container:hover .Dropdown-content{
+.Menu-container:active .Dropdown-content{
   display: block;
 }
 

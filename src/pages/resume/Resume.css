@@ -113,6 +113,29 @@ body{
     margin-top: 50px;
 }
 
+@media only screen and (max-width: 1440px){
+    .language-container{
+        margin-left: 90px;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    .language-container{
+        margin-left: 300px;
+    }
+
+    .main-content{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .workk-container{
+      margin-top: 400px;
+      margin-left: -42%;
+      margin-bottom: 180px;
+    }
+}
+
 @media only screen and (max-width: 768px){
 
     .resume-title{

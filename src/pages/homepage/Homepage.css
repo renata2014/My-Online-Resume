@@ -182,6 +182,24 @@
 }
 }
 
+@media only screen and (max-width: 1024px){
+    .box{
+        position: absolute;
+        margin-top: 50%;
+        margin-left: 450px;
+    }
+
+.info-content h3{
+    margin-left: 100px;
+    width: 300px;
+}
+
+    .info-content h4{
+        margin-left: 100px;
+        width: 300px;
+    }
+}
+
 @media only screen and (max-width: 768px){
   .box{
     position: fixed;

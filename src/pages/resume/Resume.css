@@ -146,6 +146,14 @@ body{
       margin-left: -42%;
       margin-bottom: 180px;
     }
+
+    .download-button{
+        margin-left: 420px;
+    }
+
+    .resume-title{
+        margin-left: 380px;
+    }
 }
 
 @media only screen and (max-width: 768px){
@@ -175,11 +183,18 @@ body{
         margin-left: 170px;
     }
 
+    .download-button{
+        margin-left: 280px;
+    }
 }
 
 @media only screen and (max-width: 414px){
     .resume-title{
         margin-left: 90px;
+    }
+
+    .download-button{
+        margin-left: 120px;
     }
 
     .skills-content{

@@ -1,11 +1,32 @@
 import React from 'react';
 import './Resume.css';
 
+
 export class ResumeContent extends React.Component{
+    state = { numPages: null, pageNumber: 1 };
+
+  onDocumentLoadSuccess = ({ numPages }) => {
+    this.setState({ numPages });
+  };
+
     render(){
+      
         return(
+          
         <div>
             <h1 className="resume-title">My <span className="resume-span">Resume</span></h1>
+             <div>
+            <a href={require("../../Renata_Pencea_Resume.pdf")}npm download="Renata_Pencea_Resume.pdf">
+                
+                <button className="download-button"  target="_blank" >Download Resume</button>
+                </a>
+              </div> 
+
+<div>
+    
+
+        
+      </div>
             <div className="main-content">
                 <div className="skills-container">
                     <h3 className="skills">WORK <span className="skills-span">SKILLS</span></h3>
@@ -49,7 +70,7 @@ export class ResumeContent extends React.Component{
                     <p>Data Entry Specialist at Iron Mountain Company<br></br>
                     Cluj-Napoca<br></br>
                     <span className="years-span">From March 2016 - Present</span></p>
-
+                    
                     </div>
                 </div>
             </div>

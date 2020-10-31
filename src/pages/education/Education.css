@@ -22,8 +22,8 @@
     width: 400px;
     border-radius: 20px;
     padding: 15px;
-    border: 3px solid white;
-    box-shadow: 5px 0 5px 5px thistle;
+    border: 3px solid black;
+    box-shadow: 5px 0 5px 5px #4C4442;
     margin-top: 70px;
 }
 

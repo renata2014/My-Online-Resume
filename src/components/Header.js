@@ -16,7 +16,7 @@ export class SideBar extends React.Component{
                 <Link to="/skills">
                 <a href="#" className="hbtn3 hb-border-left-br3 hbor3 hpill"><i className="fa fa-undo" aria-hidden="true"></i>Skills</a>
                 </Link>
-                <Link to="/about-me">
+                <Link to="/hobbies">
                 <a href="#" className="hbtn4 hb-border-left-br4 hbor3 hpill"><i className="fa fa-undo" aria-hidden="true"></i>Hobbies</a>
                 </Link>
                 <Link to="/education">

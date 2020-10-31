@@ -97,6 +97,16 @@
     background-color: #D664BE;
 }
 
+.title-texth3{
+    color: #233D4D;
+    margin-left: 680px;
+}
+
+.title-spanh3{
+    color: #02B6A4;
+}
+
+
 @media only screen and (max-width: 768px){
     .title-text{
         margin-left: 250px;

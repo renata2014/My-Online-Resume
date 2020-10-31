@@ -1,0 +1,83 @@
+.employement-content{
+    margin-left: 500px;
+    margin-top: 70px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-content{
+    display: flex;
+    margin-bottom: auto;
+    padding-bottom: 0;
+}
+
+
+
+.pink{
+    width: 100%;
+    height: 10px;
+    background-color: #E43F6F;
+    border-radius: 5px;
+}
+
+.yellow{
+    width: 100%;
+    height: 10px;
+    background-color: #ECC732;
+    border-radius: 5px;
+}
+
+.green{
+    width: 100%;
+    height: 10px;
+    background-color: #3BB273;
+    border-radius: 5px;
+}
+
+.blue{
+    width: 100%;
+    height: 10px;
+    background-color: #64C3E3;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.skills{
+    color: #233D4D;
+    letter-spacing: 1px;
+}
+
+.skills-span{
+    color: #02B6A4;
+}
+
+
+.language-container{
+    position: relative;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.education-container{
+    position: relative;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+
+
+.years-span{
+    color: #166088;
+    font-weight: bold;
+}
+
+.mainn-content{
+    display: flex;
+    margin-bottom: 100px;
+    margin-top: -100px;
+    
+}
+
+

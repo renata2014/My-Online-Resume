@@ -8,42 +8,29 @@ export class SideBar extends React.Component{
         return(<div>
             <div className="sidebar left">
                <Link to="/">
-                <p className="home-p">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    Home
-                </p>
+               <a href="#" className="hbtn hb-border-left-br hbor3 hpill"><i className="fa fa-undo" aria-hidden="true"></i>Homepage</a>
                 </Link>
-                <Link to="/resume">
-                <p className="resume-p">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    Resume
-                </p>
+                <Link to="/projects">
+                <a href="#" className="hbtn2 hb-border-left-br2 hbor3 hpill"><i className="fa fa-undo" aria-hidden="true"></i>Projects</a>
                 </Link>
-                <Link to="/my-work">
-                <p className="work-p" >
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    My Work
-                </p>
+                <Link to="/skills">
+                <a href="#" className="hbtn3 hb-border-left-br3 hbor3 hpill"><i className="fa fa-undo" aria-hidden="true"></i>Skills</a>
                 </Link>
                 <Link to="/about-me">
-                <p className="about-p">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    About me
-                </p>
+                <a href="#" className="hbtn4 hb-border-left-br4 hbor3 hpill"><i className="fa fa-undo" aria-hidden="true"></i>Hobbies</a>
+                </Link>
+                <Link to="/education">
+                <a href="#" className="hbtn5 hb-border-left-br5 hbor3 hpill"><i className="fa fa-undo" aria-hidden="true"></i>Education</a>
+                </Link>
+                <Link to="/employement">
+                <a href="#" className="hbtn6 hb-border-left-br6 hbor3 hpill"><i className="fa fa-undo" aria-hidden="true"></i>Employement</a>
+                </Link>
+                <Link to="/contact-me">
+                <a href="#" className="hbtn7 hb-border-left-br7 hbor3 hpill"><i className="fa fa-undo" aria-hidden="true"></i>Contact</a>
                 </Link>
             </div>
+
+
             <div className="mobile-header">
                 <div className="Menu-container">
                     <div className="button">

@@ -1,0 +1,41 @@
+.resume-title{
+    position: relative;
+    margin-left: 600px;
+    color: #233D4D;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 60px;
+    font-size: 45px;
+}
+
+.resume-span{
+    color: #02B6A4;
+}
+
+.skills-container{
+    position: relative;
+    margin-left: 300px;
+    
+    
+}
+
+.skills-content{
+    width: 400px;
+    border-radius: 20px;
+    padding: 15px;
+    border: 3px solid white;
+    box-shadow: 5px 0 5px 5px thistle;
+    margin-top: 70px;
+}
+
+.skills-content p{
+    margin-top: 20px;
+    padding-left:0px;
+    color: #233D4D;
+    margin: 10px;
+}
+
+.mainn-content{
+    margin-top: 10px;
+    margin-left: 200px;
+}
+

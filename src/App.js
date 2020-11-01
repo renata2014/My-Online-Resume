@@ -16,6 +16,7 @@ import { Skills } from './pages/skills/Skills';
 
 function App() {
   return (<div>
+    
   <Router>
     <SideBar />
     <Switch>

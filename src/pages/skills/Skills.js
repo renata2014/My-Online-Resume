@@ -31,7 +31,7 @@ export class Skills extends React.Component{
         <div className="skills-page-card">
             <div className="face face1">
                 <div className="skills-page-content">
-                    <img src={css}/>
+                    <img src={css} alt="css"/>
                     <h3>CSS</h3>
                 </div>
             </div>
@@ -44,7 +44,7 @@ export class Skills extends React.Component{
         <div className="skills-page-card">
             <div className="face face1">
                 <div className="skills-page-content">
-                    <img src={javascript}/>
+                    <img src={javascript} alt="javascript"/>
                     <h3>JAVASCRIPT</h3>
                 </div>
             </div>

@@ -9,7 +9,6 @@ export class Education extends React.Component{
             
                 <div className="mainn-content">
                 <div className="education-container">
-                    <h3 className="skills"></h3>
                     <div className="skills-content">
                         <p>The Informal School of IT - Web Development(HTML, CSS, Javascript, ReactJS)<br></br>
                         <span className="years-span">2020</span></p>

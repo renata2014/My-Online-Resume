@@ -54,7 +54,7 @@ body {
 .projects-content-wrapper {
     display: inline-block;
     width: 100%;
-    margin: ;
+    /* margin: ; */
     text-align: center;
 }
 
@@ -68,7 +68,7 @@ body {
 }
 
 .projects-box-1 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.2)),url(https://images.pexels.com/photos/545331/pexels-photo-545331.jpeg?w=940&h=650&auto=compress&cs=tinysrgb);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.2));
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -107,7 +107,7 @@ body {
 }
 
 .projects-box-1:hover {
-    background-image: linear-gradient(rgba(134, 89, 89, 0.88),rgba(134, 89, 89, 0.74)),url(https://images.pexels.com/photos/545331/pexels-photo-545331.jpeg?w=940&h=650&auto=compress&cs=tinysrgb);
+    background-image: linear-gradient(rgba(134, 89, 89, 0.88),rgba(134, 89, 89, 0.74));
     transition: background-image 0.3s;
 
 }
@@ -122,7 +122,7 @@ body {
 
 
 .projects-box-2:hover {
-    background: linear-gradient(rgba(134, 89, 89, 0.88),rgba(134, 89, 89, 0.74)), url(https://scontent.fclj3-1.fna.fbcdn.net/v/t1.15752-9/123110118_754654192132082_2566004448248653858_n.jpg?_nc_cat=111&ccb=2&_nc_sid=ae9488&_nc_ohc=rsFx0-XZkYcAX-cIz2B&_nc_ht=scontent.fclj3-1.fna&oh=1ad139aca19b762a74d246d96c24fd5f&oe=5FC31370) no-repeat center; 
+    background: linear-gradient(rgba(134, 89, 89, 0.88),rgba(134, 89, 89, 0.74)); 
     transition: background 2s;
 }
 
@@ -133,6 +133,20 @@ body {
 
 .projects-box-2:hover .projects-first {
     opacity: 0;
+}
+
+.download-button{
+    margin-left: 610px;
+    width: 170px;
+    border: none;
+    height: 35px;
+    border-radius: 15px;
+    font-style: italic;
+    color: darkred;
+    font-weight: bold;
+    background-color: rgb(189, 202, 209);
+    cursor: pointer;
+    margin-bottom: 30px;
 }
 
 

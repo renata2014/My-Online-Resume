@@ -8,11 +8,12 @@ import {
   Route,
 } from "react-router-dom";
 import { ProjectsContent } from './pages/projects/Projects';
-import { MyWork } from './pages/workpage/Workpage';
+// import { MyWork } from './pages/workpage/Workpage';
 import { AboutMePage } from './pages/hobbies/Hobbies';
 import { Education } from './pages/education/Education';
 import { Employement } from './pages/employement/Employement';
 import { Skills } from './pages/skills/Skills';
+import { Contact } from './pages/contact/Contact';
 
 function App() {
   return (<div>
@@ -26,9 +27,6 @@ function App() {
       <Route path="/projects">
         <ProjectsContent />
       </Route>
-      <Route path="/my-work">
-        <MyWork />
-      </Route>
       <Route path="/hobbies">
         <AboutMePage />
       </Route>
@@ -40,6 +38,9 @@ function App() {
       </Route>
       <Route path="/skills">
         <Skills />
+      </Route>
+      <Route path="/contact-me">
+        <Contact />
       </Route>
     </Switch>
     </Router>

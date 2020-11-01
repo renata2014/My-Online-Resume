@@ -9,7 +9,6 @@ export class Employement extends React.Component{
             <div className="employement-content">
                  
                 <div className="workk-container">
-                    <h3 className="skills"></h3>
                     <div className="skills-content">
                     <p>Data Entry Specialist at Iron Mountain Company<br></br>
                     Cluj-Napoca<br></br>

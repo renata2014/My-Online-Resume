@@ -32,9 +32,9 @@ export class ProjectsContent extends React.Component{
                 </div>
                 <div className="projects-second">
                   <p className="projects-para">This is our very first project called URANUS. Its a movie rating website where you can search movies, you can register and than edit, delete or add what movies you want.</p>
-                   <p className="projects-para"><a href="#" className="projects-a">For GitHub Repository click down below!<br></br><span className="links" onClick={()=>{
+                   <p className="projects-para"><p  className="projects-a">For GitHub Repository click down below!<br></br><span className="links" onClick={()=>{
                 window.open("https://github.com/angelcrisan/uranus","_blank")
-            }}>https://github.com/angelcrisan/uranus</span></a></p>           
+            }}>https://github.com/angelcrisan/uranus</span></p></p>           
                 </div>
             </div>
               <div className="projects-box projects-box-2">
@@ -43,9 +43,9 @@ export class ProjectsContent extends React.Component{
                 </div>
                <div className="projects-second">
                   <p className="projects-para">This is my online resume website. Here you can find some interesting things about me. Enjoy!</p>
-                   <p className="projects-para"><a href="#" className="projects-a">For GitHub Repository click down below!<br></br><span className="links" onClick={()=>{
+                   <p className="projects-para"><p href="#" className="projects-a">For GitHub Repository click down below!<br></br><span className="links" onClick={()=>{
                 window.open("https://github.com/renata2014/My-Online-Resume","_blank")
-            }}>https://github.com/renata2014/My-Online-Resume</span></a></p>
+            }}>https://github.com/renata2014/My-Online-Resume</span></p></p>
                </div>
            </div>
        </div>

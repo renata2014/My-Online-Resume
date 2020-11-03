@@ -15,7 +15,7 @@ export class ProjectsContent extends React.Component{
         return(
           
         <div>
-            <h1 className="resume-title">My <span className="resume-span">Projects</span></h1>
+            <h1 className="mobile-resume-title">My <span className="resume-span">Projects</span></h1>
              <div>
             <a href={require("../../Renata_Pencea_Resume.pdf")}npm download="Renata_Pencea_Resume.pdf">
                 

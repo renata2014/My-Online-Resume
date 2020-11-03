@@ -58,10 +58,6 @@
       
 
         .carousel{
-            /* margin-left: 100px;
-            display: flex;
-            flex-wrap: wrap;
-            */
             margin-left: 550px;
         }
       .carousel {
@@ -84,7 +80,6 @@
           outline: 0;
           border: 0;
           background: none;
-          /* top: 50%; */
           margin-top: -13px;
           font-size: 18px; }
         .carousel .thumbs-wrapper {
@@ -228,5 +223,55 @@
 
 
 @media only screen and (max-width: 1024px){
+  .carousel{
+    margin-left: 420px;
+}
+}
 
+@media only screen and (max-width: 768px){
+  .carousel{
+    margin-left: 190px;
+}
+}
+
+@media only screen and (max-width: 540px){
+  .carousel{
+    margin-left: 100px;
+}
+
+.carousel .thumbs-wrapper {
+  display: none; }
+
+}
+
+@media only screen and (max-width: 414px){
+  .carousel{
+    margin-left: 30px;
+}
+}
+
+@media only screen and (max-width: 375px){
+  .carousel{
+    margin-left: 12px;
+}
+}
+
+@media only screen and (max-width: 360px){
+  .carousel{
+    margin-left: 5px;
+}
+}
+
+@media only screen and (max-width: 320px){
+  .carousel{
+    margin-left: 10px;
+    width: 300px;
+}
+}
+
+@media only screen and (max-width: 280px){
+  .carousel{
+    margin-left: 10px;
+    width: 260px;
+}
 }

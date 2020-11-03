@@ -225,4 +225,122 @@
       padding: 0;
     }
   }
+
+  @media only screen and (max-width: 1280px){
+    .app-form-group{
+      width: 250px;
+    }
+.screen-body{
+  width: 50px;
+}
+.screen-body-item{
+  width: 120px;
+}
+.screen{
+  width: 600px;
+}
+  }
+
+  @media only screen and (max-width: 1024px){
+    .app-form-group{
+      width: 250px;
+    }
+.screen-body{
+  width: 70px;
+}
+.screen-body-item{
+  width: 180px;
+}
+.screen{
+  width: 600px;
+  margin-left: -110px;
+  margin-top: -150px;
+}
+  }
+
+  @media only screen and (max-width: 768px){
+    .app-form-group{
+      width: 250px;
+    }
+.screen-body{
+  width: 70px;
+}
+.screen-body-item{
+  width: 180px;
+}
+.screen{
+  width: 600px;
+  margin-left: -340px;
+  margin-top: -150px;
+}
+  }
+
+  @media only screen and (max-width: 540px){
+    .app-form-group{
+      width: 280px;
+      margin-left: 50px;
+    }
+
+.screen{
+  width: 450px;
+  margin-left: -385px;
+  margin-top: -150px;
+}
+.app-title{
+  display: none;
+}
+  }
+
+  @media only screen and (max-width: 414px){
+    .app-form-group{
+      width: 280px;
+      margin-left: -10px;
+    }
+
+.screen{
+  width: 340px;
+  margin-left: -395px;
+  margin-top: -150px;
+}
+  }
   
+  @media only screen and (max-width: 375px){
+    .app-form-group{
+      width: 280px;
+      margin-left: -10px;
+    }
+
+.screen{
+  width: 340px;
+  margin-left: -412px;
+  margin-top: -150px;
+}
+  }
+
+  
+  @media only screen and (max-width: 360px){
+    .app-form-group{
+      width: 280px;
+      margin-left: -10px;
+      
+    }
+
+.screen{
+  width: 340px;
+  margin-left: -419px;
+  margin-top: -130px;
+}
+  }
+
+  @media only screen and (max-width: 280px){
+    .app-form-group{
+      width: 200px;
+      margin-left: -10px;
+    }
+
+.screen{
+  width: 260px;
+  margin-left: -419px;
+  margin-top: -130px;
+}
+  }

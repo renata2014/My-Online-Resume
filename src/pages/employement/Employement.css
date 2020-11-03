@@ -84,4 +84,46 @@ body{
     
 }
 
+@media only screen and (max-width: 1024px){
+    .workk-container{
+        margin-left: -150px;
+        font-size: 23px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .workk-container{
+        margin-left: -360px;
+    }
+}
+
+@media only screen and (max-width: 540px){
+    .workk-container{
+        margin-left: -440px;
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 414px){
+    .workk-container{
+        margin-left: -473px;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 360px){
+    .workk-container{
+        margin-left: -477px;
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .workk-container{
+        margin-left: -477px;
+        font-size: 12px;
+    }
+}
+
+
 

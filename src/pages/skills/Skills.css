@@ -90,3 +90,111 @@
     background: #333;
     color: #fff;
 }
+
+@media only screen and (max-width: 1024px){
+    .resume-title{
+        margin-left: 480px;
+    }
+
+    .skills-page-container{
+        margin-left: 260px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .resume-title{
+        margin-left: 250px;
+    }
+
+    .skills-page-container{
+        margin-left: 30px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .resume-title{
+        margin-left: 250px;
+    }
+
+    .skills-page-container{
+        margin-left: 30px;
+        position: sticky;
+    }
+}
+
+@media only screen and (max-width: 540px){
+    .resume-title{
+        margin-left: 170px;
+        font-size: 35px;
+    }
+
+    .skills-page-container{
+        margin-left: 120px;
+        position: sticky;
+    }
+
+   .skills-page-container{
+       width: 70px;
+   }
+}
+
+@media only screen and (max-width: 414px){
+    .resume-title{
+        margin-left: 100px;
+        font-size: 32px;
+    }
+
+    .skills-page-container{
+        margin-left: 59px;
+        position: sticky;
+    }
+
+   .skills-page-container{
+       width: 70px;
+   }
+}
+
+@media only screen and (max-width: 375px){
+    .resume-title{
+        margin-left: 80px;
+        font-size: 30px;
+    }
+
+    .skills-page-container{
+        margin-left: 40px;
+        position: sticky;
+    }
+
+   .skills-page-container{
+       width: 70px;
+   }
+}
+
+@media only screen and (max-width: 375px){
+    .resume-title{
+        font-size: 28px;
+    }
+
+    .skills-page-container{
+        margin-left: 30px;
+    }
+
+   .skills-page-container{
+       width: 70px;
+   }
+}
+
+
+@media only screen and (max-width: 280px){
+    .resume-title{
+        font-size: 25px;
+    }
+
+    .skills-page-container{
+        margin-left: 0px;
+    }
+
+   .skills-page-container{
+       width: 70px;
+   }
+}

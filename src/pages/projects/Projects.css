@@ -35,8 +35,6 @@ body {
     font-size: 120%;
 }
 
-/* MAIN */
-
 .projects-main {
     display: flex;
     flex-direction: column;
@@ -54,7 +52,6 @@ body {
 .projects-content-wrapper {
     display: inline-block;
     width: 100%;
-    /* margin: ; */
     text-align: center;
 }
 
@@ -150,20 +147,110 @@ body {
 }
 
 
-/* Media queries */ 
+@media only screen and (max-width: 768px){
+   .download-button{
+       margin-left: 310px;
+   }
 
+   .projects-section-content{
+       width: 350px;
+       margin: 35px;
+   }
 
-@media screen and (max-width: 500px) {
-    body {
-        height: auto;
-    }
-    p {
-        font-size: 90%;
-    }
+.mobile-resume-title{
+    margin-left: 300px;
+}
 }
 
-@media screen and (max-height: 500px) {
-  body {
-    height: auto;
-  }
-}
+@media only screen and (max-width: 540px){
+    .burger-button{
+        width: 35px;
+    }
+    
+    .download-button{
+        margin-left: 190px;
+    }
+ 
+    .projects-section-content{
+        width: 10px;
+        margin: 0;
+    }
+ 
+ .mobile-resume-title{
+     margin-left: 180px;
+ }
+ .projects-box{
+     width: 520px;
+ }
+ }
+
+ @media only screen and (max-width: 414px){
+    .download-button{
+        margin-left: 120px;
+    }
+ 
+ .mobile-resume-title{
+     margin-left: 110px;
+ }
+ .projects-box{
+     width: 390px;
+ }
+ }
+
+ @media only screen and (max-width: 375px){
+    .download-button{
+        margin-left: 100px;
+    }
+ 
+ .mobile-resume-title{
+     margin-left: 90px;
+ }
+ .projects-box{
+     width: 350px;
+ }
+ }
+
+ @media only screen and (max-width: 360px){
+    .download-button{
+        margin-left: 95px;
+    }
+ 
+ .mobile-resume-title{
+     margin-left: 85px;
+ }
+ .projects-box{
+     width: 340px;
+ }
+ }
+
+ @media only screen and (max-width: 320px){
+    .download-button{
+        margin-left: 107px;
+       width: 100px;
+       font-size: 10px;
+    }
+ 
+ .mobile-resume-title{
+     font-size: 27px;
+     margin-left: 75px;
+ }
+ .projects-box{
+     width: 300px;
+ }
+ }
+
+ @media only screen and (max-width: 280px){
+    .download-button{
+        margin-left: 107px;
+       width: 80px;
+       font-size: 10px;
+    }
+ 
+ .mobile-resume-title{
+     font-size: 27px;
+     margin-left: 67px;
+ }
+ .projects-box{
+     width: 260px;
+ }
+ }

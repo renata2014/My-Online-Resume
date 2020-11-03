@@ -95,3 +95,9 @@
     background: #ff3636;
     cursor: pointer;
 }
+
+@media only screen and (min-width: 1440px){
+    .burger-button{
+        display: none;
+    }
+}

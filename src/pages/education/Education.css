@@ -39,3 +39,89 @@
     margin-left: 200px;
 }
 
+@media only screen and (max-width: 1280px){
+
+.resume-title{
+    display: none;
+}
+.mainn-content{
+    margin-left: 230px;
+}
+.skills-content{
+    margin-top: 250px;
+}
+    }
+
+@media only screen and (max-width: 1024px){
+
+.mainn-content{
+    margin-left: 80px;
+    }
+.skills-content{
+    width: 450px;
+}
+}
+
+@media only screen and (max-width: 768px){
+
+.mainn-content{
+    margin-left: -160px;
+}
+.skills-content{
+    width: 450px;
+}
+}
+
+@media only screen and (max-width: 540px){
+
+    .mainn-content{
+        margin-left: -240px;
+    }
+    .skills-content{
+        width: 380px;
+        margin-top: 130px;
+    }
+    }
+
+    @media only screen and (max-width: 414px){
+
+        .mainn-content{
+            margin-left: -280px;
+        }
+        .skills-content{
+            width: 330px;
+            margin-top: 130px;
+        }
+        }
+
+@media only screen and (max-width: 375px){
+
+.mainn-content{
+     margin-left: -270px;
+   }
+.skills-content{
+    width: 280px;
+   }
+}
+
+@media only screen and (max-width: 320px){
+.mainn-content{
+    margin-left: -280px;
+}
+.skills-content{
+    font-size: 12px;
+    width: 240px;
+    margin-top: 130px;
+}
+}
+
+@media only screen and (max-width: 280px){
+    .mainn-content{
+        margin-left: -280px;
+    }
+    .skills-content{
+        font-size: 11px;
+        width: 200px;
+        margin-top: 130px;
+    }
+    }

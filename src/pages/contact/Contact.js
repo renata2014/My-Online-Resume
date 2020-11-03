@@ -29,11 +29,6 @@ export class Contact extends React.Component{
           <div className="screen-header-button maximize"></div>
           <div className="screen-header-button minimize"></div>
         </div>
-        <div className="screen-header-right">
-          <div className="screen-header-ellipsis"></div>
-          <div className="screen-header-ellipsis"></div>
-          <div className="screen-header-ellipsis"></div>
-        </div>
       </div>
       <div className="screen-body">
         <div className="screen-body-item left">

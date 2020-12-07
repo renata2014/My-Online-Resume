@@ -1,8 +1,6 @@
 import React from 'react';
 import './Projects.css';
 
-
-
 export class ProjectsContent extends React.Component{
     state = { numPages: null, pageNumber: 1 };
 

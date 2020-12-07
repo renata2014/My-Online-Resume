@@ -32,11 +32,7 @@ export class Homepage extends React.Component{
         </ul>
       </div>
     </div>
-  </div>
-
-
-            
-            
+  </div>        
         )
     }
 }

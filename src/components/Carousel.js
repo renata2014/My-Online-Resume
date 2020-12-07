@@ -36,8 +36,5 @@ export default  (props) => (<div className="carousel">
       <img alt="" src={props.PhotoSrc8} />
       
     </div>
-    
-   
-    
   </Carousel></div>
 );

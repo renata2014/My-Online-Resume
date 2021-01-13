@@ -38,14 +38,20 @@ export class ProjectsContent extends React.Component{
             </div>
               <div className="projects-box projects-box-2">
                 <div className="projects-first">
-                   <h2 className="projects-h">My Online Resume Website</h2>
+                   <h2 className="projects-h">My 50 Projects Challenge</h2>
                 </div>
-               <div className="projects-second">
+                <div className="projects-50">
+                  <p className="projects-para">This is a 50 projects challenge. Work in progress...</p>
+                   <p className="projects-para"><p href="#" className="projects-a">For GitHub Repository click down below!<br></br><span className="links" onClick={()=>{
+                window.open("https://github.com/renata2014/50projects","_blank")
+            }}>https://github.com/renata2014/50projects</span></p></p>
+               </div>
+               {/* <div className="projects-second">
                   <p className="projects-para">This is my online resume website. Here you can find some interesting things about me. Enjoy!</p>
                    <p className="projects-para"><p href="#" className="projects-a">For GitHub Repository click down below!<br></br><span className="links" onClick={()=>{
                 window.open("https://github.com/renata2014/My-Online-Resume","_blank")
             }}>https://github.com/renata2014/My-Online-Resume</span></p></p>
-               </div>
+               </div> */}
            </div>
        </div>
    </div>
